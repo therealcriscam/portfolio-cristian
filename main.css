@@ -1,0 +1,125 @@
+* {
+    box-sizing: border-box;
+    margin: 0 auto;
+  }
+  
+body {
+    font-family: "Roboto",
+    monospace; 
+    font-size: 18px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    line-height: 1.75;
+}
+  
+nav, footer {
+    padding: 2% 0;
+    background-color: black;
+}
+  
+nav {
+    width: 100%;
+    margin-top: 10px;
+}
+
+.nav-links {
+    list-style-type: none;
+    width: fit-content;
+    display: inline-block;
+    padding: 0;
+}
+
+.nav-link:hover {
+    cursor: pointer;
+}
+
+a {
+    display: inline;
+    text-align: center; 
+    text-decoration: none;
+    color: white;
+    font-family: 'Space Mono', monospace;
+    font-weight: bold;
+    margin-right: 4px;
+    margin-left: 4px;
+}
+
+.nav-link {
+    display: inline;
+    text-align: center;
+}
+
+
+
+#top-button {
+    display: none;
+    position: fixed;
+    bottom: 2%;
+    right: 1%;
+    z-index: 99;
+    border: 1px solid white;
+    border-radius: 50%;
+    height: 80px;
+    width: 80px;
+    outline: none;
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+    font-family: 'Space Mono', monospace;
+    font-size: 14px;
+    opacity: .5;
+}
+  
+header {
+    width: 70%;
+    padding: 2% 0;
+    margin-top: 10px;
+}
+
+h1, h2, h3, p {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+h1, h2, h3 {
+    font-family: 'Space Mono', monospace;
+    font-weight: bold;
+}
+
+p {
+    text-align: left;
+    margin-bottom: 20px;
+}
+  
+section {
+    min-height: 200px;
+    padding: 2% 0;
+    width: 75%;
+}
+
+img {
+    width: 100%;
+}
+
+.connect-text{
+    text-align: center;
+}
+
+.connect-link {
+    height: 50px;
+    width: 50px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+footer {
+    font-family: "Space Mono", monospace;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+hr {
+    margin-top: 10px;
+}
